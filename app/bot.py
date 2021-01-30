@@ -12,9 +12,6 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 bot = commands.Bot(command_prefix='!')
 
 
-# @bot.event
-# async def on_ready():
-#     print(f'{bot.user.name} has connected to Discord!')
 @bot.command(
     name='99',
     help='Responds with a random quote from Brooklyn 99'
