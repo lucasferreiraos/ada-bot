@@ -11,6 +11,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='!')
 
+
 @bot.command(
     name='99',
     help='Responds with a random quote from Brooklyn 99'
